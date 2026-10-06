@@ -1,0 +1,14 @@
+{
+  "assignment_id": "demo-assignment",
+  "assignment_name": "範例作業",
+  "sender": "your-account@example.com",
+  "excel_file": "examples/students.xlsx",
+  "archive_file": "examples/submissions.zip",
+  "archive_prefix": "demo",
+  "student_email_domain": "example.com",
+  "worksheet": "學生名單",
+  "subject": "範例作業程式碼回傳",
+  "body": "{name}同學您好：\n\n附件為你{assignment_name}所繳交的程式碼，請下載留存。\n如對成績有疑問，請寄信給授課老師。\n\n課程助教",
+  "credentials_file": "credentials.json",
+  "token_file": "token.json"
+}

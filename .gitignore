@@ -1,0 +1,20 @@
+# 登入憑證與本機設定
+credentials*.json
+client_secret*.json
+token*.json
+config.json
+config.*.local.json
+# 真實資料與寄送紀錄
+/data/
+/submissions/
+/outputs/
+*.xlsx
+*.zip
+!examples/students.xlsx
+!examples/submissions.zip
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
